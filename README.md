@@ -22,7 +22,7 @@ RevealNet é uma ferramenta de resolução de IPs a partir de URLs com recursos 
 ### Método Rápido (Recomendado)
 
 ```bash
-curl -sSL https://github.com/lalaio1/RevealNet/blob/main/script/install.sh -o install.sh
+curl -sSL https://raw.githubusercontent.com/lalaio1/RevealNet/refs/heads/main/script/install.sh -o install.sh
 chmod +x install.sh
 ./install.sh
 rm install.sh
