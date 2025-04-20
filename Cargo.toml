@@ -1,0 +1,10 @@
+[package]
+name = "RevealNet"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+url = "2.5"
+colored = "2.0"
+clap = { version = "4.2", features = ["derive"] }
+socks = "0.3"
