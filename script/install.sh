@@ -64,6 +64,7 @@ if ! echo "$PATH" | grep -q "$INSTALL_DIR"; then
 fi
 
 echo "[✓] Instalaçao concluida!"
+source ~/.bashrc
 echo "Agora voce pode executar a ferramenta com: $ALIAS_NAME"
 
-source ~/.bashrc
+
